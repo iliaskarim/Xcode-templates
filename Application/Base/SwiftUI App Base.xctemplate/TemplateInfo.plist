@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.iliaskarim.application.SwiftUI</string>
+	<key>NameOfInitialFileForEditor</key>
+	<string>___PACKAGENAME:identifier___.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>___PACKAGENAME:identifier___.swift</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___PACKAGENAME:identifier___.swift</key>
+		<dict>
+			<key>SortOrder</key>
+			<integer>99</integer>
+			<key>Path</key>
+			<string>RootView.swift</string>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ENABLE_PREVIEWS</key>
+				<string>YES</string>
+				<key>INFOPLIST_KEY_NSHumanReadableCopyright</key>
+				<string>___YEAR___ ___FULLUSERNAME___</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>hasBridgingHeader</string>
+			<key>Name</key>
+			<string>Include bridging header</string>
+			<key>NotPersisted</key>
+			<false />
+			<key>SortOrder</key>
+			<integer>100</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Bridging-Header.h</string>
+					</array>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+								<string>$TARGET_NAME/Bridging-Header.h</string>				
+							</dict>
+						</dict>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Bridging-Header.h</key>
+						<dict>
+							<key>Path</key>
+							<string>Bridging-Header.h</string>
+							<key>SortOrder</key>
+							<integer>101</integer>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>isLocalized</string>
+			<key>Name</key>
+			<string>Localize strings</string>
+			<key>NotPersisted</key>
+			<false />
+			<key>SortOrder</key>
+			<integer>98</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>				
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Localizable.xcstrings</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Localizable.xcstrings</key>
+						<dict>
+							<key>Path</key>
+							<string>Localizable.xcstrings</string>
+							<key>SortOrder</key>
+							<integer>1000</integer>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>usePreviewContentCatalog</string>
+			<key>Name</key>
+			<string>Use a preview content asset catalog</string>
+			<key>NotPersisted</key>
+			<false />
+			<key>SortOrder</key>
+			<integer>99</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Preview Content/Preview Assets.xcassets</string>
+					</array>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>DEVELOPMENT_ASSET_PATHS</key>
+								<string>"$TARGET_NAME/Preview Content"</string>
+							</dict>
+						</dict>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Preview Content/Preview Assets.xcassets</key>
+						<dict>
+							<key>SortOrder</key>
+							<integer>100</integer>
+							<key>Path</key>
+							<string>Preview Assets.xcassets</string>
+							<key>Group</key>
+							<string>Preview Content</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
