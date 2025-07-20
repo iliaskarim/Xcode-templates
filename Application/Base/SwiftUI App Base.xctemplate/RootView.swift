@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Root app view
+/// ___PACKAGENAME___ root view
 struct ___PACKAGENAMEASIDENTIFIER___: View {
   var body: some View {
     VStack {
