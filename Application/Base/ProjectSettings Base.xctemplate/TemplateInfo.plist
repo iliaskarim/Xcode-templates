@@ -116,8 +116,8 @@
 				<string>INCLUDE_SOURCE</string>
 				<key>ENABLE_TESTABILITY</key>
 				<string>YES</string>
-				
-				<!-- !!!:20150416 Is it really appropriate for this to be different for Debug 
+
+				<!-- !!!:20150416 Is it really appropriate for this to be different for Debug
 				 -->
 				<key>GCC_DYNAMIC_NO_PIC</key>
 				<string>NO</string>
@@ -155,8 +155,7 @@
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>SWIFT_VERSION</key>
-				<string>5.0</string>
-
+				<string>6.0</string>
 				<key>GENERATE_INFOPLIST_FILE</key>
 				<string>YES</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
