@@ -6,15 +6,13 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
 	<string>com.iliaskarim.application.SwiftUI</string>
-	<key>NameOfInitialFileForEditor</key>
-	<string>___PACKAGENAME:identifier___.swift</string>
 	<key>Nodes</key>
 	<array>
-		<string>___PACKAGENAME:identifier___.swift</string>
+		<string>RootView.swift</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>___PACKAGENAME:identifier___.swift</key>
+		<key>RootView.swift</key>
 		<dict>
 			<key>SortOrder</key>
 			<integer>99</integer>
@@ -63,7 +61,7 @@
 							<key>SharedSettings</key>
 							<dict>
 								<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-								<string>$TARGET_NAME/Bridging-Header.h</string>				
+								<string>$TARGET_NAME/Bridging-Header.h</string>
 							</dict>
 						</dict>
 					</array>
@@ -95,7 +93,7 @@
 			<string>true</string>
 			<key>Units</key>
 			<dict>
-				<key>true</key>				
+				<key>true</key>
 				<dict>
 					<key>Nodes</key>
 					<array>
