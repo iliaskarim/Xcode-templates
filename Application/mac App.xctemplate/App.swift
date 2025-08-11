@@ -5,7 +5,7 @@ import SwiftUI
 
   var body: some Scene {
     WindowGroup {
-      ___PACKAGENAMEASIDENTIFIER___()
+      RootView()
     }.windowResizability(.contentSize)
   }
 }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 /// ___PACKAGENAME___ root view
-struct ___PACKAGENAMEASIDENTIFIER___: View {
+struct RootView: View {
   var body: some View {
     VStack {
       Text("Hello, world!")
@@ -10,5 +10,5 @@ struct ___PACKAGENAMEASIDENTIFIER___: View {
 }
 
 #Preview {
-  ___PACKAGENAMEASIDENTIFIER___()
+  RootView()
 }
